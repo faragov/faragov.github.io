@@ -1,0 +1,72 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;500&family=Sono:wght@600&display=swap');
+
+
+main {
+    padding: 10%;
+}
+main {
+    background-image: url(topography.webp);
+}
+h1 h2 h3 h4 {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sono', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 h4 {
+    font-size: 30px; 
+}
+
+h3 {
+font-size: 40px;
+text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #333333;
+}
+
+h2{
+    color: red;
+}
+
+nav {
+    float: right;
+    display: inline;
+    padding-top: 15px;
+    padding-right: 10px;
+    display: inline;
+}
+
+nav a {
+    color: #ff0099;
+    padding-left: 1em;
+}
+
+img {
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+hr {
+    border: none;
+    height: 1px;
+  background: #000;
+  background: repeating-linear-gradient(90deg,#000,#000 6px,transparent 6px,transparent 12px);
+    
+  }
+
+.vonal {
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
