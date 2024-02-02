@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Silkscreen:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Silkscreen", sans-serif;
+  background: repeating-linear-gradient(
+    -45deg,
+    black,
+    rgb(2, 57, 4) 100px,
+    rgb(1, 255, 9) 50px,
+    rgb(81, 7, 241) 120px
+  );
+  padding: 20px;
+
+  align-items: center;
+}
+/*global*/
+.navbar {
+  padding-top: 0px;
+  text-shadow: 2px 2px 4px rgba(1, 1, 1, 1);
+  background-color: #071d004f;
+  position: fixed;
+  flex-wrap: wrap;
+  flex-direction: row;
+  z-index: 1000;
+  filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.3));
+  display: flex;
+  font-size: 1.5em;
+  align-items: center;
+  width: 96vw;
+}
+.navbar .right li {
+  letter-spacing: 0.4rem;
+  float: right;
+  padding-left: 30px;
+}
+.navbar .right {
+  margin-left: auto;
+}
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+.right li a {
+  border: 1px solid #66bb6a;
+  color: #551a8b;
+  margin: 3px;
+}
+.navbar .right li:hover a {
+  background-color: #f5fa00;
+  color: #66bb6a;
+}
+h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+}
+/*global end*/
+
+/*header navbar*/
+.scroll-down {
+  margin-top: 3%;
+}
+
+/*social list*/
+.social-list li a {
+  letter-spacing: 0.4rem;
+  color: #551a8b;
+  border: 2px solid #66bb6a;
+  transform: rotate(45deg);
+  font-size: 30px;
+  margin: 7px;
+}
+.social-list li:hover a {
+  color: #66bb6a;
+  background: #f5fa00;
+  transform: rotate(360deg);
+}
+.social-list ul {
+  display: inline;
+}
+.navbar .social-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/*social list end*/
+
+.container {
+  background: rgba(0, 0, 0, 0.966);
+  box-sizing: content-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: "Silkscreen", sans-serif;
+  color: #104417;
+  width: 80%;
+  margin: 10% auto 0;
+  filter: drop-shadow(0px -5px 5px rgba(234, 234, 12, 0.8))
+    drop-shadow(0px 5px 10px rgba(234, 234, 12, 0.8));
+}
+
+/*about*/
+.about p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+/*about end*/
+
+/*works*/
+.block {
+  box-shadow: 4px 4px 7px #333;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10%;
+}
+.works {
+  padding-bottom: 3%;
+}
+.works-thumb {
+  height: 300px;
+}
+#work-1 {
+  background: url("./redditClone.png") no-repeat 100%;
+  background-size: cover;
+}
+#work-2 {
+  background: url("./webshop.png") no-repeat 100%;
+  background-size: cover;
+}
+#work-3 {
+  background: url("./photogallery.png") no-repeat 100%;
+  background-size: cover;
+}
+.block::after,
+.block::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  overflow: hidden;
+}
+.block::after {
+  left: -50%;
+  transition: 0.5s;
+}
+.block::before {
+  right: -50%;
+  transition: 0.5s;
+}
+.block:hover:after {
+  left: 0;
+}
+.block:hover:before {
+  right: 0;
+}
+.works-caption {
+  text-align: justify;
+  font-family: "Silkscreen", sans-serif;
+  font-size: 1rem;
+  position: absolute;
+  border-radius: 10px;
+  display: block;
+  padding: 15px 2px;
+  width: 60%;
+  left: 20%;
+  top: -150%;
+  z-index: 1;
+  color: #f5fa00;
+  border: 2px solid rgb(81, 7, 241);
+  transition: top 0.5s;
+  background-color: #00000095;
+}
+.block:hover .works-caption {
+  top: 3%;
+}
+.works h2 {
+  margin: 7% 0;
+}
+/*works end*/
+
+/*skillls*/
+.skills p {
+  text-align: center;
+  color: #f5fa00;
+}
+.skills h2 {
+  margin: 7%;
+  color: #104417;
+}
+.skills .skills-thumb {
+  margin-bottom: 5%;
+}
+/*skills end*/
+
+/*social list main*/
+.social-footer h2 {
+  margin: 5% 0 3%;
+}
+.social-footer .social-list {
+  padding: 0;
+  margin-bottom: 5%;
+}
+.social-footer .social-list li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 15px;
+}
+.social-footer .social-list li a {
+  margin-top: 5px;
+}
+.fa-linkedin {
+  font-size: 60px;
+}
+.cv {
+  font-size: 30px;
+  margin: 8%;
+  height: 10px;
+}
+.fa-github {
+  font-size: 60px;
+}
+#footerCV {
+  height: 20px;
+}
+
+/*footer*/
+footer {
+  color: #fff;
+}
+footer h2 {
+  margin-top: 7%;
+}
+.contact {
+  margin: 5% 0;
+}
+.contacts-data {
+  margin: 3% 7%;
+}
+.contacts-data .btn {
+  background: transparent;
+  padding: 15px 20px;
+  color: #f5fa00;
+  text-transform: uppercase;
+  margin-top: 7%;
+}
+.contacts-data .btn:hover {
+  background: #104417;
+}
+.contact .button-icon {
+  padding-left: 10px;
+}
+.contact-text {
+  font-family: "Lato", serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.33rem;
+  padding-left: 7%;
+}

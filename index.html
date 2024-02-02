@@ -1,1 +1,278 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivien Farago - portfolio</title>
+    <link rel="stylesheet" href="portfolio.component.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script type = "text/javascript" src="portfolio.component.js"></script>
+    <script>
+      type = "text/javascript"
+      src = "node_modules/wow.js/dist/wow.js"
+    </script>
+    <base href="/" />
+  </head>
+
+  <body data-spy="scroll" data-target="#nav">
+    <header class="clearfix" id="home">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <ul class="social-list">
+            <li>
+              <a href="https://github.com/faragov" target="_blank"
+                ><i class="fa fa-github" title="GitHub"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/vivien-farago/"
+                target="_blank"
+                ><i class="fa fa-linkedin" title="LinkedIn"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.canva.com/design/DAF30N5lvX4/2MHE309JAh4XFZkd9kdmQw/view?utm_content=DAF30N5lvX4&utm_campaign=designshare&utm_medium=link&utm_source=editore"
+                target="_blank"
+                ><i class="cv" title="CV"></i>CV
+              </a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li data-elem="about"><a href="#about">ABOUT</a></li>
+            <li data-elem="works"><a href="#works">WORKS</a></li>
+            <li data-elem="skills"><a href="#skills">SKILLS</a></li>
+            <li data-elem="contacts"><a href="#contacts">CONTACTS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="about scroll" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about">
+            <h2>Hello there!</h2>
+            <br />
+            <h3>🚀 About Me</h3>
+            <br />
+            <p class="about-text">
+              👋 I'm Vivien Farago, a dynamic professional who has seamlessly
+              transitioned from a background in law and social media to the
+              exhilarating realm of IT and software development.
+              <br /><br />
+              With a law degree from the University of Szeged I underwent a
+              transformative journey and completing an intensive coding bootcamp
+              at Green Fox Academy (Budapest), mastering an extensive array of
+              technologies such as Java, HTML, CSS, Git, GitHub, Algorithm
+              Development, Testing, Object-Oriented Programming (OOP), Gradle,
+              SQL, Spring Boot, Thymeleaf, REST APIs, Docker Products, React.js,
+              JavaScript, JPAS, Project Planning, Project Engineering, Software
+              Development, Web Development, and Databases.
+              <br /><br />
+              Currently, I'm immersed in projects involving Angular and Next.js,
+              showcasing my dedication to continuous learning and staying at the
+              forefront of modern technologies. Whether it's coding, project
+              planning, or diving into databases, I bring a meticulous and
+              enthusiastic approach to every challenge. Eager to contribute to
+              cutting-edge IT initiatives, I am ready to collaborate, innovate,
+              and code the future. Let's connect and explore how I can bring my
+              diverse skill set to elevate your projects! Let's build something
+              amazing! 💻✨
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works scroll" id="works">
+      <div class="container">
+        <h2 class="text-center">Portfolio projects</h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="https://github.com/faragov/redditClone" target="_blank">
+              <div
+                class="block wow rotateInDownLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.15s"
+              >
+                <div class="works-thumb" id="work-1"></div>
+                <div class="works-caption">
+                  This project represents a key milestone achieved during my
+                  participation in the learning method at the bootcamp
+                  <br /><br />
+                  It is a replica of the platform Reddit, featuring a simplistic
+                  yet functional frontend design. While the user interface may
+                  appear basic, the true magic lies in the robust backend
+                  functionalities. Using Java and Spring Boot, this project
+                  showcases a sophisticated and efficient backend system that
+                  powers various essential functions. From seamless data
+                  management to advanced user interactions, the backend of this
+                  Reddit clone is a testament to the power and versatility of
+                  Java and Spring Boot technologies.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="https://github.com/faragov/webshopBasic" target="_blank">
+              <div
+                class="block wow rotateInDownLeft"
+                data-wow-duration=".8s"
+                data-wow-delay="0.3s"
+              >
+                <div class="works-thumb" id="work-2"></div>
+                <div class="works-caption">
+                  I developed a foundational web application project with
+                  webshop features, incorporating a minimalist design using
+                  Java, Spring, and Thymeleaf. <br /><br />
+                  This project holds special significance as it was my first web
+                  application, created during my bootcamp learning journey.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="https://github.com/faragov/photogallery" target="_blank">
+              <div
+                class="block wow rotateInDownLeft"
+                data-wow-duration=".8s"
+                data-wow-delay="0.45s"
+              >
+                <div class="works-thumb" id="work-3"></div>
+                <div class="works-caption">
+                  Welcome to my PhotoGallery project! <br /><br />
+                  Using Next.js, I've crafted a visually stunning photo gallery
+                  with a focus on optimal rendering and an immersive user
+                  experience. Animated elements elevate the user journey,
+                  ensuring a captivating exploration beyond just the images.
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills scroll" id="skills">
+      <div class="container">
+        <h2>Skills and proficiency</h2>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="skills-thumb wow bounceIn"
+              data-wow-duration="1.5s"
+              data-wow-delay="0s"
+            >
+              <h3>Programming Languages:</h3>
+              <br />
+              <p>Java, JavaScript</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="skills-thumb wow bounceIn"
+              data-wow-duration="1.5s"
+              data-wow-delay="0.2s"
+            >
+              <h3>Web Development:</h3>
+              <br />
+              <p>HTML, CSS, React.js, Angular, Next.js</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="skills-thumb wow bounceIn"
+              data-wow-duration="1.5s"
+              data-wow-delay="0.4s"
+            >
+              <h3>Version Control:</h3>
+              <br />
+              <p>Git, GitHub</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="skills-thumb wow bounceIn"
+              data-wow-duration="1.5s"
+              data-wow-delay="0.6s"
+            >
+              <h3>Database:</h3>
+              <br />
+              <p>SQL, JPAS</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="skills-thumb wow bounceIn"
+              data-wow-duration="1.5s"
+              data-wow-delay="0.6s"
+            >
+              <h3>Frameworks:</h3>
+              <br />
+              <p>Spring Boot, Thymeleaf</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="skills-thumb wow bounceIn"
+              data-wow-duration="1.5s"
+              data-wow-delay="0.6s"
+            >
+              <h3>Project Management:</h3>
+              <br />
+              <p>Project Planning, Project Engineering, SCRUM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="social-footer text-center scroll" id="contacts">
+      <div class="container">
+        <h2>Social links</h2>
+        <ul class="social-list">
+          <li>
+            <a href="https://github.com/faragov" target="_blank"
+              ><i class="fa fa-github" title="GitHub" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/vivien-farago/" target="_blank"
+              ><i class="fa fa-linkedin" title="LinkedIn"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.canva.com/design/DAF30N5lvX4/2MHE309JAh4XFZkd9kdmQw/view?utm_content=DAF30N5lvX4&utm_campaign=designshare&utm_medium=link&utm_source=editore"
+              target="_blank"
+              ><i id="footerCV" title="CV"></i>CV</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <h2 class="text-center">Get in touch</h2>
+        <div class="row contact">
+          <div class="col-md-6 text-right">
+            <div class="contacts-data">
+              <h3>Ready to hire me?</h3>
+              <a
+                href="https://www.canva.com/design/DAF30N5lvX4/2MHE309JAh4XFZkd9kdmQw/view?utm_content=DAF30N5lvX4&utm_campaign=designshare&utm_medium=link&utm_source=editore"
+                target="_blank"
+                class="btn btn-default transparent"
+                >Get in touch <i class="fa fa-arrow-right button-icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
