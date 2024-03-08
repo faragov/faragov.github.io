@@ -153,6 +153,10 @@ h2 {
   background: url("./photogallery.png") no-repeat 1vw;
   background-size: cover;
 }
+#work-4 {
+  background: url("./ticketApp.png") no-repeat 1vw;
+  background-size: cover;
+}
 .block::after,
 .block::before {
   content: "";
