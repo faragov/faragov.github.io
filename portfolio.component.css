@@ -67,11 +67,12 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.3vw;
   animation: flip 2s infinite;
-  animation-delay: calc(.2s * var(--i));
+  animation-delay: calc(0.2s * var(--i));
 }
 @keyframes flip {
-  0%,80% {
-    transform: rotateY(360deg) 
+  0%,
+  80% {
+    transform: rotateY(360deg);
   }
 }
 /*global end*/
@@ -155,6 +156,10 @@ h2 {
 }
 #work-4 {
   background: url("./ticketApp.png") no-repeat 1vw;
+  background-size: cover;
+}
+#work-5 {
+  background: url("./webEditor.png") no-repeat 1vw;
   background-size: cover;
 }
 .block::after,
