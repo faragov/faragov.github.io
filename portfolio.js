@@ -33,10 +33,10 @@ let currentPosition = 0;
 
 caneLabels.addEventListener("click", () => {
   if (currentIndex === 0) {
-    window.open("https://kutasituzep.netprofil.hu/", "_blank");
+    window.open("https://kutasituzep.hu/", "_blank");
   }
   if (currentIndex === 1) {
-    window.open("https://demo.fulopepuletgepeszetshop.hu/", "_blank");
+    window.open("https://fulopepuletgepeszetshop.hu/", "_blank");
   }
   if (currentIndex === 2) {
     window.open("https://csemegeboltom.hu/licensz_termekek", "_blank");
